@@ -144,10 +144,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    margin-bottom:20px;
+}
 header nav {
     display:flex;
     align-items:flex-end;
-    justify-content: flex-start;
+    margin: 20px 0px 30px 0px;
+}
+
+header nav a {
+    margin: 0 45px;
+    text-decoration: none;
+    color:black;
+    font-size:14px;
 }
 .middle-content .boxes .box.box-1 {
     background-color: teal;
