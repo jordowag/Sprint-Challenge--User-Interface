@@ -197,3 +197,24 @@ header nav a {
 .middle-content .boxes .box.box-10 {
     background-color: dodgerblue;
 }
+
+/* About page */
+.middle-about {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    border-bottom:0;
+}
+
+.about-top {
+    width:95%;
+    margin: 0 auto 20px auto;
+}
+.about-content {
+    width:45%;
+    border-bottom: 1px dashed black;
+}
+
+.about-content h2 {
+    padding:0;
+}
