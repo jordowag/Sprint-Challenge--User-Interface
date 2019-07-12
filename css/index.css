@@ -236,22 +236,42 @@ header nav a {
     margin:0 auto;
     margin-bottom:40px;
 }
-
+/* BLOG PAGE */
 .sidebar {
     display:inline-block;
     width:300px;
     height:300px;
-    background-color:red;
+    border: 2px solid gray;
+    background-color:lightblue;
     margin: 10px;
     position:fixed;
     top:120px;
     left:1400px;
-
 }
-
+.sidebar p {
+    font-size: 16 px;
+    margin: 10px;
+}
+ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul > ul > li {
+    margin-left:20px;
+}
 li {
     list-style-type: circle;
+    line-height:1.1;
 }
-body {
+
+.blog-post h2 {
+    font-size: 30px;
+    padding: 0;
+    margin: 10px 0;
+}
+.blog-post img { 
     width: 100%;
+}
+.blog-post p {
+    
 }
