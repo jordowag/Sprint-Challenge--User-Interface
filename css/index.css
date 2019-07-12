@@ -296,6 +296,12 @@ hr {
     border-bottom:0;
 }
 
+.box {
+    transition:.5s;
+}
+.box:hover{
+    box-shadow:20px 20px 20px gray;
+}
 @media (max-width: 800px) {
     .container {
         width: 100%;
