@@ -266,7 +266,7 @@ li {
 
 h1 {
     font-size: 50px;
-    
+
 }
 .blog-post h2 {
     font-size: 30px;
@@ -296,3 +296,32 @@ hr {
     border-bottom:0;
 }
 
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    .middle-content .boxes .box {
+        width: 100%;
+    }
+    .top-content .text-container {
+        width:100%;
+    }
+    .bottom-content {
+        flex-wrap:wrap;
+    }
+    .container header{
+        width: 100%;
+    }
+    header nav {
+        width: 100%;
+    }
+    header nav a {
+        margin: 1%;
+    }
+    header img {
+        width: 100%;
+    }
+    .bottom-content .text-container {
+        width: 100%;
+    }
+}
