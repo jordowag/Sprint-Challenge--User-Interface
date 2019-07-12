@@ -208,12 +208,13 @@ header nav a {
 
 .about-top {
     width:95%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
+    padding-bottom: 20px;
 }
 .about-content {
     width:45%;
     border-bottom: 1px dashed black;
-    margin: 30px 0;
+    margin: 10px 0 30px 0;
 }
 
 .about-content h2 {
@@ -224,8 +225,14 @@ header nav a {
 .button {
     width: 35%;
     border: 2px solid black;
-    border-radius:5px;
+    border-radius:10px;
     margin: 20px 0;
-    padding: 5px 10px;
+    padding: 7px 10px;
     text-align:center;
+}
+
+.about-bottom {
+    width:97%;
+    margin:0 auto;
+    margin-bottom:40px;
 }
