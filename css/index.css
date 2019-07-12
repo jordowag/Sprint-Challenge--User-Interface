@@ -264,6 +264,10 @@ li {
     line-height:1.1;
 }
 
+h1 {
+    font-size: 50px;
+    
+}
 .blog-post h2 {
     font-size: 30px;
     padding: 0;
@@ -273,5 +277,22 @@ li {
     width: 100%;
 }
 .blog-post p {
-    
+    margin: 10px 0;
 }
+
+hr {
+    background-color:gray;
+    display:block;
+    margin-bottom:10px;
+    height:.5px;
+}
+.blog-post .dateline {
+    font-style:italic;
+    font-size:14px;
+    color:skyblue;
+    margin:0;
+}
+.middle-content.middle-blog {
+    border-bottom:0;
+}
+
